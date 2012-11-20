@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WizardPageIdentite</class>
+ <widget class="QWizardPage" name="WizardPageIdentite">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>499</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WizardPage</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout_2">
+   <property name="fieldGrowthPolicy">
+    <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+   </property>
+   <item row="0" column="0">
+    <widget class="QLabel" name="nomLabel">
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="nomLineEdit">
+     <property name="maxLength">
+      <number>32</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="prenomLabel">
+     <property name="text">
+      <string>Prenom</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="prenomLineEdit">
+     <property name="maxLength">
+      <number>32</number>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="emailLabel">
+     <property name="text">
+      <string>Email</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="emailLineEdit">
+     <property name="maxLength">
+      <number>128</number>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="statutLabel">
+     <property name="text">
+      <string>Statut</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QComboBox" name="statutComboBox"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="commentaireLabel">
+     <property name="text">
+      <string>Commentaire</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QLineEdit" name="commentaireLineEdit">
+     <property name="maxLength">
+      <number>128</number>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="promoLabel">
+     <property name="text">
+      <string>Promo</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="dPartementLabel">
+     <property name="text">
+      <string>Département</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QComboBox" name="dPartementComboBox"/>
+   </item>
+   <item row="8" column="1">
+    <widget class="QSpinBox" name="promoSpinBox">
+     <property name="minimum">
+      <number>1990</number>
+     </property>
+     <property name="maximum">
+      <number>2011</number>
+     </property>
+     <property name="value">
+      <number>2011</number>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLabel" name="diffFedeLabel">
+     <property name="text">
+      <string>Diffusion Federation</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QCheckBox" name="diffusionFederationCheckBox">
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="numeroLineEdit">
+     <property name="inputMask">
+      <string>99.99.99.99.99 ; </string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="numeroLabel">
+     <property name="text">
+      <string>Numero</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="adresseLabel">
+     <property name="text">
+      <string>Adresse</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="adresseLineEdit"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="codePostaleVilleLabel">
+     <property name="text">
+      <string>Code postale / Ville</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="codePostaleVilleLineEdit"/>
+   </item>
+   <item row="12" column="0">
+    <widget class="QLabel" name="annuaireLabel">
+     <property name="text">
+      <string>Annuaire</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="1">
+    <widget class="QCheckBox" name="annuaireCheckBox">
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="dateDeNaissanceLabel">
+     <property name="text">
+      <string>Date de naissance</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QDateEdit" name="dateDeNaissanceDateEdit">
+     <property name="displayFormat">
+      <string>dd/MM/yyyy</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>nomLineEdit</tabstop>
+  <tabstop>prenomLineEdit</tabstop>
+  <tabstop>emailLineEdit</tabstop>
+  <tabstop>dateDeNaissanceDateEdit</tabstop>
+  <tabstop>numeroLineEdit</tabstop>
+  <tabstop>adresseLineEdit</tabstop>
+  <tabstop>codePostaleVilleLineEdit</tabstop>
+  <tabstop>statutComboBox</tabstop>
+  <tabstop>promoSpinBox</tabstop>
+  <tabstop>dPartementComboBox</tabstop>
+  <tabstop>commentaireLineEdit</tabstop>
+  <tabstop>diffusionFederationCheckBox</tabstop>
+  <tabstop>annuaireCheckBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

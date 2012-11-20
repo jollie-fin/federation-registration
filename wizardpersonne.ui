@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WizardPersonne</class>
+ <widget class="QWizard" name="WizardPersonne">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Wizard</string>
+  </property>
+  <widget class="WizardPageLogin" name="login"/>
+  <widget class="WizardPageIdentite" name="identite"/>
+  <widget class="WizardPageAssos" name="assos"/>
+  <widget class="WizardPageRequit" name="wizardPage"/>
+  <widget class="WizardPageTotal" name="wizardPage_2"/>
+  <widget class="WizardPageIdentifiant" name="wizardPage_3"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>WizardPageLogin</class>
+   <extends>QWizardPage</extends>
+   <header>wizardpagelogin.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WizardPageIdentite</class>
+   <extends>QWizardPage</extends>
+   <header>wizardpageidentite.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WizardPageAssos</class>
+   <extends>QWizardPage</extends>
+   <header>wizardpageassos.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WizardPageRequit</class>
+   <extends>QWizardPage</extends>
+   <header>wizardpagerequit.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WizardPageTotal</class>
+   <extends>QWizardPage</extends>
+   <header>wizardpagetotal.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WizardPageIdentifiant</class>
+   <extends>QWizardPage</extends>
+   <header>wizardpageidentifiant.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WizardPaiment</class>
+ <widget class="QWizard" name="WizardPaiment">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Wizard</string>
+  </property>
+  <widget class="WizardPageLoginIden" name="wizardPage1"/>
+  <widget class="WizardPageInfoPerso" name="wizardPage2"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>WizardPageLoginIden</class>
+   <extends>QWizardPage</extends>
+   <header>wizardpageloginiden.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>WizardPageInfoPerso</class>
+   <extends>QWizardPage</extends>
+   <header>wizardpageinfoperso.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
